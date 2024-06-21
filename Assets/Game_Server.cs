@@ -83,7 +83,7 @@ public class Game_Server : MonoBehaviour
 
         targetColorIndex = UnityEngine.Random.Range(0, usedIndices.Count);
 
-        TargetColorNameDisplay.text = "Choose cookie a which is: "+  AvailableColors[usedIndices[targetColorIndex]].ColorName;
+        TargetColorNameDisplay.text = "Choose a cookie which is: "+  AvailableColors[usedIndices[targetColorIndex]].ColorName;
 
         correctColorIndex = usedIndices[targetColorIndex];
         usedIndices.Clear();

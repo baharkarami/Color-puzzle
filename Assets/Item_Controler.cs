@@ -12,7 +12,7 @@ public class Item_Controler : MonoBehaviour
         // بررسی سیستم عامل
         if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
         {
-            Debug.Log("gg");
+            
          CheckInput();
         }
 
